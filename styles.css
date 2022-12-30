@@ -1,0 +1,87 @@
+a {
+	font-style: none;
+	text-decoration: none;
+	color: white;
+}
+
+html, body {
+	font-family: "Montserrat";
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+  	flex-flow: column;
+}
+
+h1 {
+	color: #FFFBEB;
+	font-size: 10rem;
+	margin-top: 0;
+	display: inline;
+}
+
+h2 {
+	color: #FFFBEB;
+	font-size: 3rem;
+	margin: 0 3rem;
+	padding: 2rem 0;
+}
+
+p {
+	color: white;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+
+section {
+	padding: 0;
+	margin: 0;
+}
+
+.die {
+	width: 20rem;
+	margin: 0 3rem;
+}
+
+.flag {
+	width: 10rem;
+}
+
+.player-container {
+	display: inline;
+}
+
+.SNS {
+	width: 2rem;
+}
+
+/* Sections */
+
+#result {
+	text-align: center;
+	background-color: #495579;
+	padding: 2rem 0;
+	margin: 0;
+}
+
+#board {
+	text-align: center;
+	background-color: #263159;
+	padding: 1rem 0;
+	margin: 0;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+#bottom {
+	flex: 1 1 auto;
+	flex-flow: column;
+	background-color: #251749;
+	justify-content: center;
+	display : flex;
+	align-items : center;
+}
